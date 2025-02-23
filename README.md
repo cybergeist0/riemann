@@ -5,27 +5,16 @@ A program that approximates the definite integral of a relation using Riemann Su
 The input to the program is provided in the file `c.in` and requires three lines of input. It should be structured in the format:
 
 ```
-<NUM OF POINTS> <TYPE> <SUBINTERVALS>
-<a> <b> ... <z>
-<f(a)> <f(b)> ... <f(z)>
-```
-
-### Example Input
-```
-6 trapezoidal 5
-2 5 9 12 15 20
-10 15 12 20 25 30
-```
-
-### Example Output
-```
-344.5
+<NUM OF POINTS> <TYPE>
+<x1> <y1>
+<x2> <y2>
+...
+<xN> <yN>
 ```
 
 ## Types of Approximations
-- `left` - Left Riemann Sum
-- `right` - Right Riemann Sum
-- `midpoint` - Midpoint Riemann Sum
+- `left-riemann` - Left Riemann Sum
+- `right-riemann` - Right Riemann Sum
 - `trapezoidal` - Trapezoidal Rule
 
 ## Compilation & Execution
@@ -35,4 +24,4 @@ To compile and run the program:
  ./riemann
 ```
 
-Ensure `c.in` contains the appropriate input before execution. The output will be written to `c.out`. 
+Ensure `c.in` contains the appropriate input before execution. The output will be written to console. 
