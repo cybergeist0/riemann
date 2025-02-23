@@ -17,11 +17,4 @@ The input to the program is provided in the file `c.in` and requires three lines
 - `right-riemann` - Right Riemann Sum
 - `trapezoidal` - Trapezoidal Rule
 
-## Compilation & Execution
-To compile and run the program:
-```sh
- g++ -o riemann riemann.cpp
- ./riemann
-```
-
 Ensure `c.in` contains the appropriate input before execution. The output will be written to console. 
